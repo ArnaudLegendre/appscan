@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mangaas",
+      "handler": "mangaa.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mangaas/count",
+      "handler": "mangaa.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mangaas/:id",
+      "handler": "mangaa.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mangaas",
+      "handler": "mangaa.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mangaas/:id",
+      "handler": "mangaa.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mangaas/:id",
+      "handler": "mangaa.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mangaas",
+  "info": {
+    "name": "mangaa",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titre": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "chapitre": {
+      "type": "decimal"
+    },
+    "dernierchapitre": {
+      "type": "decimal"
+    }
+  }
+}
