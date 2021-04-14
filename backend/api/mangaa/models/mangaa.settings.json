@@ -26,6 +26,9 @@
     },
     "dernierchapitre": {
       "type": "decimal"
+    },
+    "image": {
+      "type": "string"
     }
   }
 }
